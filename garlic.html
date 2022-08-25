@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Little Italy Farms</title>
+		<title>Our Garlic</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -26,10 +26,7 @@
 								<!-- Nav -->
 									<nav id="nav">
 										<a href="index.html">Homepage</a>
-										<a href="threecolumn.html">Three Column</a>
-										<a href="twocolumn1.html">Two Column #1</a>
-										<a href="twocolumn2.html">Two Column #2</a>
-										<a href="onecolumn.html">One Column</a>
+										<a href="contactus.html">Contact Us</a>
 									</nav>
 
 							</div>
@@ -39,17 +36,18 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-6 col-12-medium">
-
 									<!-- Banner Copy -->
-										<p>We grow gourmet garlic and heirloom tomatoes on the North Shore.</p>
-										<a href="#" class="button-large">Buy Garlic Online Here!</a>
-
+									<p>Our Garlic</p>
+										<ul>
+											<li> All our garlic can be eaten or planted, and our fields tested negative for garlic bloat nematode.</li>
+											<li> All bulbs are guaranteed to be larger than 1.5".</li>
+											<li> One pound of garlic is about 16 bulbs.</li>
+<!--											<li> Bulbs of Culinary garlic are medium or small, similar in size to garlic from the grocery store.</li> -->
+										</ul>
 								</div>
 								<div class="col-6 col-12-medium imp-medium">
-
 									<!-- Banner Image -->
-										<a href="#" class="bordered-feature-image"><img src="images/banner.jpg" alt="" /></a>
-
+										<a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
 								</div>
 							</div>
 						</div>
@@ -60,101 +58,68 @@
 				<section id="features">
 					<div class="container">
 						<div class="row">
-						
+
 							<!-- (1) -->
 							<div class="col-3 col-6-medium col-12-small">
 									<section>
-										<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
-										<h2>Chesnok Red</h2>
-										<ul style="list-style-type:square">
-											<li> Easy to grow, beautiful, best baking, roasting and sautéing garlic.
-											<li> With a range of clove sizes, your harvest should result in all sized bulbs from 1.5-2.75+” bulbs.
-											<li> Averages 9-12 cloves per bulb.
-											<li> Long storing garlic - 7-10 months.
-											<li> Best Tasting Garlic with a milder flavor.
-										</ul>
-										<!-- Provide a target element for the Card form -->
-
-<!-- Provide a target element for the Card form -->
-<form id="payment-form">
-  <div id="card-container"></div>
-  <button id="card-button" type="button">Pay</button>
-</form>
-<!-- Configure the Web Payments SDK and Card payment method -->
-<script type="text/javascript">
-  async function main() {
-    const payments = Square.payments(APPLICATION_ID, LOCATION_ID);
-    const card = await payments.card();
-    await card.attach('#card-container');
-
-    async function eventHandler(event) {
-      event.preventDefault();
-
-      try {
-        const result = await card.tokenize();
-        if (result.status === 'OK') {
-          console.log(`Payment token is ${result.token}`);
-        }
-      } catch (e) {
-        console.error(e);
-      }
-    };
-
-    const cardButton = document.getElementById('card-button');
-    cardButton.addEventListener('click', eventHandler);
-  }
-
-  main();
-</script>
-
-
+										<a href="sampler.html" class="bordered-feature-image"><img src="images/sampler.jpg" alt="" /></a>
+										<h2>Garlic Sampler</h2>
 									</section>
 							</div>
-							
+						
 							<!-- (2) -->
 							<div class="col-3 col-6-medium col-12-small">
 									<section>
-										<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
-										<h2>Russian Giant</h2>
-										<ul style="list-style-type:square">
-											<li> Grows well in northern states with consistently good yields and size.
-											<li> Highly productive in all regions even warm regions.
-											<li> Averages 5-7 large cloves per bulb.
-											<li> Long storing garlic - 7-10 months.
-											<li> Garlic flavor: A great mild flavored garlic with large fat cloves which is a great all-purpose garlic especially in raw dishes, but is wonderful sautéed & roasted too.
-										</ul>
-										
+										<a href="chesnokred.html" class="bordered-feature-image"><img src="images/chesnokred.jpg" alt="" /></a>
+										<h2>Chesnok Red</h2>
 									</section>
 							</div>
 							
-
-  <div style="padding: 20px;">
-  <a target="_blank" href="https://square.link/u/50xc0lAs?src=embed" style="
-    display: inline-block;
-    font-size: 18px;
-    line-height: 48px;
-    height: 48px;
-    color: #ffffff;
-    min-width: 212px;
-    background-color: #000000;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
-    
-  ">Buy - 1 lb - Large</a>
-  </div>
-<
-							
+							<!-- (3) -->
 							<div class="col-3 col-6-medium col-12-small">
 									<section>
-										<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="russiangiant.html" class="bordered-feature-image"><img src="images/russiangiant.jpg" alt="" /></a>
+										<h2>Russian Giant</h2>									
+									</section>
+							</div>
+							
+							<!-- (4) -->
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="estonianred.html" class="bordered-feature-image"><img src="images/estonianred.jpg" alt="" /></a>
+										<h2>Estonian Red</h2>									
+									</section>
+							</div>
+							
+ 							<!-- (5) -->
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="northernwhite.html" class="bordered-feature-image"><img src="images/northernwhite.jpg" alt="" /></a>
 										<h2>Northern White</h2>
-										<ul style="list-style-type:square">
-											<li> Hardy, easy to grow garlic, large size bulbs and cloves, strong flavored!.
-											<li> Since all cloves are large, your harvest should result in all large uniform bulbs usually 2-2.75+”.
-											<li> Averages 4-6 cloves per bulb.
-											<li> Long storing garlic - 7-10 months.
-											<li> Considered a hot flavored porcelain.
-										</ul>
+									</section>
+							</div>
+							
+ 							<!-- (6) -->
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="music.html" class="bordered-feature-image"><img src="images/music.jpg" alt="" /></a>
+										<h2>Music</h2>
+									</section>
+							</div>
+
+ 							<!-- (7) -->
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="majestic.html" class="bordered-feature-image"><img src="images/majestic.jpg" alt="" /></a>
+										<h2>Majestic</h2>
+									</section>
+							</div>
+							
+ 							<!-- (8) -->
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="italianrocambole.html" class="bordered-feature-image"><img src="images/italianrocambole.jpg" alt="" /></a>
+										<h2>Italian Rocambole</h2>
 									</section>
 							</div>
 
@@ -162,18 +127,18 @@
 					</div>
 				</section>
 
-			<!-- Content -->
+			<!-- Content
 				<section id="content">
 					<div class="container">
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
 
-								<!-- Box #1 -->
+								<!-- Box #1 
 									<section>
 										<header>
 											<h2>Who We Are</h2>
 											<!-- <h3>A subheading about who we are</h3> -->
-										</header>
+	<!--									</header>
 										<a href="#" class="feature-image"><img src="images/pic05.jpg" alt="" /></a>
 										<p>
 											We grow fresh produce with sustainable practices in harmony with nature and the community .
@@ -183,11 +148,11 @@
 							</div>
 							<div class="col-4 col-6-medium col-12-small">
 
-								<!-- Box #2 -->
+								<!-- Box #2 
 									<section>
 										<header>
 											<h2>What We Do</h2>
-											<!-- <h3>A subheading about what we do</h3> -->
+			
 										</header>
 										<ul class="check-list">
 											<li>Sed mattis quis rutrum accum</li>
@@ -201,7 +166,7 @@
 							</div>
 							<div class="col-4 col-6-medium col-12-small">
 
-								<!-- Box #3 -->
+							
 									<section>
 										<header>
 											<h2>What People Are Saying</h2>
@@ -231,13 +196,13 @@
 					</div>
 				</section>
 
-			<!-- Footer -->
+		
 				<section id="footer">
 					<div class="container">
 						<div class="row">
 							<div class="col-8 col-12-medium">
 
-								<!-- Links -->
+							
 									<section>
 										<h2>Links to Important Stuff</h2>
 										<div>
@@ -281,7 +246,7 @@
 							</div>
 							<div class="col-4 col-12-medium imp-medium">
 
-								<!-- Blurb -->
+							
 									<section>
 										<h2>An Informative Text Blurb</h2>
 										<p>
@@ -296,7 +261,7 @@
 						</div>
 					</div>
 				</section>
-
+-->
 			<!-- Copyright -->
 				<div id="copyright">
 					&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
