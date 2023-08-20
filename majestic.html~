@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Northern White</title>
+		<title>Majestic</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -43,26 +43,24 @@
 								<!-- Main Content -->
 									<section>
 										<header>
-											<h2>Northern White</h2>
+											<h2>Majestic</h2>
 											<h3>Hardneck Porcelain Garlic</h3>
 										</header>
 										<div class="col-6 col-12-medium imp-medium">
-											<a href="#" class="bordered-feature-image"><img src="images/northernwhite.jpg" alt="" /></a>
+											<a href="#" class="bordered-feature-image"><img src="images/majestic.jpg" alt="" /></a>
 										</div>
 										<ul style="list-style-type:square">
-											<li> Strong flavored.
+											<li> Mildly flavored.
 											<li> Easy to peel.
-											<li> Very hot when raw, a no-compromise garlic for garlic lovers!
+											<li> Low heat level when raw, with a balanced smell and buttery on the palate.
 											<li> Averages 4-5 large cloves per bulb.
 											<li> Long storing garlic - 7-10 months.
-										</ul>				
-<!-- BUY HERE -->						
-									<p>
+										</ul>		
+<!-- BUY HERE -->								
+										<p>
 											<h3>Order our garlic below, you can add increments of 1 lb at the checkout. Shipping is $9.00 flat rate.</h3>
-											<li> LARGE GOURMET: Approx. 10 bulbs per pound, $21/pound.</li>
-											<li> JUMBO SEED: Approx. 6 bulbs per pound, $26/pound.</li>
 										</p>	
-										<a href="https://square.link/u/A6EelgJ0" class="button-large">Buy Garlic!</a>												
+										<a href="https://checkout.square.site/merchant/MLHV355Y7AH1C/checkout/S6CSLBOAC55DXE7DMXEQFAAH" class="button-large">Buy Garlic!</a>											
 									</section>
 							</div>
 						</div>

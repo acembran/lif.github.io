@@ -1,0 +1,29 @@
+<!-- Test Here		-->
+     <label for="productSize">Choose a product size:</label>
+    <select id="productSize" name="size">
+        <option data-url="https://example.com/small" value="small">Small</option>
+        <option data-url="https://google.com" value="medium">Medium</option>
+        <option data-url="https://example.com/large" value="large">Large</option>
+        <option data-url="https://example.com/extra-large" value="extra-large">Extra Large</option>
+    </select>
+    <button id="buyButton">Buy it now!</button>
+
+    <script>
+        const productSizeDropdown = document.getElementById('productSize');
+        const buyButton = document.getElementById('buyButton');
+
+        let selectedUrl = null;
+
+        productSizeDropdown.addEventListener('change', function() {
+            const selectedOption = this.options[this.selectedIndex];
+            selectedUrl = selectedOption.getAttribute('data-url');
+        });
+
+        buyButton.addEventListener('click', function() {
+            if (selectedUrl) {
+                window.location.href = selectedUrl;
+            } else {
+                alert('Please select a product size first.');
+            }
+        });
+    </script>

@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Northern White</title>
+		<title>Estonian Red</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -43,26 +43,26 @@
 								<!-- Main Content -->
 									<section>
 										<header>
-											<h2>Northern White</h2>
-											<h3>Hardneck Porcelain Garlic</h3>
+											<h2>Estonian Red</h2>
+											<h3>Hardneck Marbled Purple Stripe Garlic</h3>
 										</header>
 										<div class="col-6 col-12-medium imp-medium">
-											<a href="#" class="bordered-feature-image"><img src="images/northernwhite.jpg" alt="" /></a>
+											<a href="#" class="bordered-feature-image"><img src="images/estonianred.jpg" alt="" /></a>
 										</div>
 										<ul style="list-style-type:square">
-											<li> Strong flavored.
-											<li> Easy to peel.
-											<li> Very hot when raw, a no-compromise garlic for garlic lovers!
-											<li> Averages 4-5 large cloves per bulb.
-											<li> Long storing garlic - 7-10 months.
-										</ul>				
-<!-- BUY HERE -->						
+											<li> All purpose garlic with strong flavor.
+											<li> Maintains buttery texture when cooked.
+											<li> Medium hot when raw with notes of peppercorn.
+											<li> Averages 5 large cloves per bulb.
+											<li> Long storing.
+										</ul>										
+<!-- BUY HERE -->
 									<p>
 											<h3>Order our garlic below, you can add increments of 1 lb at the checkout. Shipping is $9.00 flat rate.</h3>
 											<li> LARGE GOURMET: Approx. 10 bulbs per pound, $21/pound.</li>
 											<li> JUMBO SEED: Approx. 6 bulbs per pound, $26/pound.</li>
 										</p>	
-										<a href="https://square.link/u/A6EelgJ0" class="button-large">Buy Garlic!</a>												
+										<a href="https://checkout.square.site/merchant/MLHV355Y7AH1C/checkout/ASCYG7V7ZVKF6WZZCE2Q7GO4" class="button-large">1 lb: $22.00</a>	-->										
 									</section>
 							</div>
 						</div>
