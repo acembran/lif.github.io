@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ul {
 	list-style: disc inside none;
 }
 
@@ -104,6 +104,7 @@ input, select, textarea {
 
 	a {
 		text-decoration: underline;
+		color: #FF5733
 	}
 
 		a:hover {
@@ -182,12 +183,18 @@ input, select, textarea {
 
 .left-image {
     width: 25%;
-    max-width: 400px;
+    max-width: 600px;
+}
+
+
+.right-container {
+    width: 75%;
+    padding: 0 20px; /* Add padding for spacing, but remove left padding */
 }
 
 .right-text {
     width: 75%;
-    padding: 20px;
+    padding: 0px;
 }
 
 
@@ -1615,6 +1622,10 @@ input, select, textarea {
 			padding-right: 1em;
 			margin: 0 0 1em 0;
 		}
+		
+		#banner ol li {
+    padding-left: 10px; /* Add space to the left of the text */
+}
 
 /* Features */
 
@@ -1745,6 +1756,14 @@ input, select, textarea {
 /* Large */
 
 	@media screen and (max-width: 1280px) {
+		
+		  .left-image {
+    			margin-left: 20px; /* Adjust the left margin for smaller screens */
+  			}
+  			
+  			.main-heading {
+   margin-left: 20px;
+}
 
 		/* Multi-use */
 
@@ -1823,6 +1842,14 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px) {
+		
+		  .left-image {
+    margin-left: 20px; /* Adjust the left margin for smaller screens */
+  }
+  
+    			.main-heading {
+   margin-left: 20px;
+}
 
 		/* Basic */
 
@@ -2001,6 +2028,14 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+		
+		  .left-image {
+    margin-left: 10px; /* Adjust the left margin for smaller screens */
+  }
+  
+    			.main-heading {
+   margin-left: 10px;
+}
 
 		/* Basic */
 
