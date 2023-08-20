@@ -155,6 +155,42 @@ input, select, textarea {
 			}
 
 		}
+		
+		
+/* My Own Image Container */
+
+.variety-container {
+    border-bottom: 1px solid lightgrey; /* Horizontal light grey line */
+    padding: 20px 0; /* Space above and below each variety */
+}
+
+.image-text-container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+.main-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-image {
+    width: 25%;
+    max-width: 400px;
+}
+
+.right-text {
+    width: 75%;
+    padding: 20px;
+}
+
+
 
 /* Row */
 
@@ -1474,12 +1510,14 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: linear-gradient(top, #ed391b, #ce1a00);
-		display: inline-block;
+		display: block;
 		background-color: #ed391b;
 		color: #fff;
 		text-decoration: none;
 		font-size: 1.75em;
 		height: 2em;
+		max-width: 350px;
+		margin: 10px;
 		line-height: 2.125em;
 		font-weight: 300;
 		padding: 0 45px;
@@ -1587,6 +1625,12 @@ input, select, textarea {
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 		color: #a0a8ab;
 	}
+
+		#features h1 {
+			font-size: 1.75em;
+			color: #fff;
+			margin: 0 0 0.25em 0;
+		}
 
 		#features h2 {
 			font-size: 1.25em;
